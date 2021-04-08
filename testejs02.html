@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang = "pt-br"/>
+<head>
+<meta charset="utf-8" />
+<title>Objetos em Java Script</title>
+
+<script>
+function acendeLampada(){
+	document.getElementById("luz").src="_imagens/lampada-acesa.jpg";
+	
+}
+function apagaLampada(){
+	document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+	
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div>
+
+<h1>Acenda a lâmpada, pessoa!</h1>
+<img src="_imagens/lampada-apagada.jpg" onmousemove="acendeLampada()" onMouseOut="apagaLampada()"/>
+
+
+
+</div>
+
+</body>
+</html>
