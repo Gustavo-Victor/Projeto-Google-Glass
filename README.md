@@ -1,2 +1,2 @@
 # Projeto Google Glass
- Site bem simples desenvolvido em um curso do Curso em Vídeo
+ Site bem simples desenvolvido durante um curso de **HTML5, CSS3 e JavaScript** do *Curso em Vídeo*
